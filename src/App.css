@@ -34,5 +34,5 @@ h2 {
 .start-button:hover {
   background-color: #00ff00;
   color: #fff; 
-  box-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00, 0 10px 10px rgba(0, 255, 0, 0.5); // Added stronger shadow underneath
+  box-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00, 0 10px 10px rgba(0, 255, 0, 0.5); 
 }

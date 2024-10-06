@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { mockData } from './data/mockData';
+import mockImg from './assets/mockimg.webp';
+import './Game.css';
 
 function Game() {
   const [randomPrompt, setRandomPrompt] = useState('');
@@ -12,8 +14,14 @@ function Game() {
 
   return (
     <div>
-      <h3 style={{ textAlign: 'center' }}>{randomPrompt}</h3>
+      <div className='game-img-container'>
+        <img src={mockImg} alt="mock image" className='game-img' />
+      </div>
+      <div>
+        <h3 style={{ textAlign: 'center' }}>{randomPrompt}</h3>
+      </div>
     </div>
+    
   );
 }
 
